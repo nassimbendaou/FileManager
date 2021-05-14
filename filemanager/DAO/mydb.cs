@@ -14,9 +14,9 @@ namespace filemanager.DAO
          
         private SqlConnection conn;
         SqlCommand cmd;
-        // Data Source = nassimbendaou.database.windows.net; Initial Catalog = FILESM; User ID = nassim; Password=Code1217;Connect Timeout = 60; Encrypt=True;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False
-        public static string ConnetionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\nassi\OneDrive\Documents\GFILES.mdf;Integrated Security=True;Connect Timeout=30";
-      // public static string ConnetionString = @"Data Source = nassimbendaou.database.windows.net; Initial Catalog = FILESM; User ID = nassim; Password=Code1217;Connect Timeout = 60; Encrypt=True;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+        
+        public static string ConnetionString = @"Data Source=$$$$$ data base";
+     
         public static string GetCnnString()
         {
             return ConnetionString;
